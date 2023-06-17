@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jammly</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <header>
+    <a href="http://127.0.0.1:5500/">
+    <h1 class="header-text">Jammly</h1>
+  </a>
+    <div class="logo">
+      <a href="http://127.0.0.1:5500/Profile/" class="profile-link">
+        <img id="profile-picture-head" src="" alt="Profile Picture">
+        <p>Profile</p>
+      </a>
+    </div>
+  </header>
+  
+  <br/>
+
+    <div id="user-profile">
+      <img id="profile-picture" src="" alt="Profile Picture">
+      <h1 id="user-name">Username</h1>
+      <p id="user-bio">Welcome to your <a href="" style="color: #1DB954; text-decoration: none;">Jammly</a> profile!</p>
+    </div>
+    </div>
+
+
+    <div class="time-ranges">
+      <button onclick="getUserStats('short_term')" data-time-range="short_term">Past 4 Weeks</button>
+      <button onclick="getUserStats('medium_term')" data-time-range="medium_term">Past 6 Months</button>
+      <button onclick="getUserStats('long_term')" data-time-range="long_term">Past Year</button>
+    </div>
+
+
+
+
+    <div class="section-container">
+      <h2 class="Titlehead">Top Songs</h2>
+      <p>
+        Your most popular songs over the
+        <span class="time-range-text" style="color: #1DB954;">past 4 Weeks</span>
+      </p>
+      <div class="scroll-arrows">
+        <button id="scrollLeftTracks" class="scroll-button">&lt;</button>
+        <button id="scrollRightTracks" class="scroll-button">&gt;</button>
+        <button id="makePlaylistButton"  onclick="createPlaylist()" class="playlist-button">
+          <i class="fas fa-list icon"></i>
+        </button>
+      </div>
+      <div class="stats-container" id="top-songs"></div>
+    </div>
+
+    <div class="section-container">
+      <h2 class="Titlehead" >Top Artists</h2>
+      <p>
+        Your most popular artists over the
+        <span class="time-range-text" style="color: #1DB954;">past 4 Weeks</span>
+      </p>
+      <div class="scroll-arrows">
+        <button id="scrollLeftArtists" class="scroll-button">&lt;</button>
+        <button id="scrollRightArtists" class="scroll-button">&gt;</button>
+      </div>
+      <div class="stats-container" id="top-artists"></div>
+    </div>
+
+  <div class="section-container">
+    <h2 class="Titlehead">Top Genres</h2>
+    <p>
+      Your most popular genres over the
+      <span class="time-range-text" style="color: #1DB954; margin-top: 0; width: 500px;">past 4 Weeks</span>
+    </p>
+    <div class="stats-container" id="top-genres"></div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <div class="section-container">
+    <h2 class="Titlehead" style="margin-bottom: 0px;">Recent Listens</h2>
+    <p style="color: #999; margin-top: 0;">Your most recent streamed tracks</p>
+    <div class="recent-listens-container" id="recently-played"></div>
+  </div>
+  
+  
+  <footer>
+    <p style="color: #999; font-size: 14px; text-align: center;">
+      All content on Jammly belongs to their respective owners.
+      <br>
+      Jammly is not affiliated with or endorsed by Spotify AB.
+      <br>
+      &copy; 2023 Jammly. All rights reserved.
+      <br>
+      <br>
+      <a href="https://github.com/Elias-Mathisen">
+      <i class="fab fa-github fa-2x" id="github-icon"></i>
+      </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+body {
+  opacity: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  transition: opacity 1s ease-in-out;
+  overflow-x: hidden;
+}
+
+
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#profile-picture-head {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin-left: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #1DB954;
+}
+
+#github-icon {
+  transition: color 0.3s;
+  color: #999;
+}
+
+#github-icon:hover {
+  color: #1DB954;
+}
+
+.header-text {
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+.header-text:hover {
+  color: #1DB954;
+}
+
+.hidden {
+  display: none;
+}
+
+.hero-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.icon {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.icon i {
+  font-size: 48px;
+  color: #1DB954;
+  margin-bottom: 10px;
+}
+
+.icon p {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer p {
+  color: #999;
+  font-size: 14px;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.icons-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.icon i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.icon p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.icon .sub-description {
+  margin-top: 5px;
+}
+  .description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+  }
+
+  .sub-description {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+
+  .call-to-action {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .call-to-action p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1DB954;
+  }
