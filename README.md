@@ -35,7 +35,7 @@ To use Jammly, follow these steps:
      npx http-server -p 5500
      ```
      Then, open your browser and navigate to `http://localhost:5500/`.
-2. Click the "Log in" button in the top left corner of the homepage to authorize Jammly to access your Spotify account.
+2. Click the "Log in" button in the top right corner of the homepage to authorize Jammly to access your Spotify account.
 3. Once authorized, you will be redirected to the Jammly dashboard where you can view your top artists, songs, and genres from the past 4 weeks, 6 months, and year.
 4. To create a playlist based on your statistics, click the playlist icon (three horizontal lines with a plus sign) next to the arrows that move the top songs display, and follow the prompts.
 5. To view your recently listened to songs, scroll down to the bottom of the page.
