@@ -1,4 +1,4 @@
-## Jammly
+# Jammly
 
 Jammly is a Spotify stats checker that allows users to view their top artists, songs, and genres from the past 4 weeks, 6 months, and year. It also allows users to create playlists based on these statistics and view their recently listened to songs.
 
